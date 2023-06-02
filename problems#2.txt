@@ -1,0 +1,143 @@
+Problem Set # 2 
+Purpose: Introduction to operators and order of precedence.
+
+
+Problem 1: Write your first program saying “Hello World”.  Now change the program to print your name and roll number instead.
+
+Problem 2: Dry run the following lines as well. Each statement is performed independently and not connected with previous.
+a = 2, b = 20, c =10, d =5
+1. e = (a + b) * c / d; 
+cout << "Value of (a + b) * c / d is :" << e << endl ;
+2. e = ((a + b) * c) / d; 
+cout << "Value of ((a + b) * c) / d is :" << e << endl ;
+3. e = (a + b) * (c / d); 
+cout << "Value of (a + b) * (c / d) is :" << e << endl ;
+4. e = a + (b * c) / d; 
+cout << "Value of a + (b * c) / d is :" << e << endl ;
+5. e = a + (b - c) / d * c + a; // 20 + (150/5)
+cout << "Value of a + (b - c) / d * c + a is :" << e << endl ;
+6. cout << "Value of c++ and ++c is: “ << c++ << ++c;
+7. cout << "Value of ++c + a++ is: “ << ++c + a++;
+8. cout << "Value of d++ % c++ is: “ << d++ % c++;
+9. cout << "Value of c++ << ++c << ++c << c++ is: “ << c++ << ++c << ++c << c++;
+10. if ((c = (d==9 || c==4)))
+ cout<<<< "Value of c is: “c;
+
+Problem 3: What will following program print on screen?
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int x = 5;
+	int y = 6;
+	cout<<"Result = "<< ++x * y<<endl;
+	cout<<"x = "<<x<<endl;
+}
+
+Problem 4: What will following program print on screen?
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int x = 5;
+	int y = 6;
+	cout<<"Result = "<< x++ * y<<endl;
+	cout<<"x = "<<x<<endl;
+}
+
+Problem 5: What will be the output of following program? 
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int x = 5;
+	int y = 6;
+	cout<<"Result = "<< ++(x+y)<<endl;
+	cout<<"x = "<<x<<endl;
+}
+
+Problem 6: What will be the output of following program?
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int x = 30 / 5 * 4 + 3 * 6 / 2;
+	cout<<"x = "<<x<<endl;
+}
+
+Problem 7: What will be the output of following program?
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int x = 3 * 6 / 2 + 30 / 6 * 2;
+	cout<<"x = "<<x<<endl;
+}
+
+Problem 8: What will be the output of following program?
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int x = 5;
+	cout<<"Result 1 = "<<(x == 5)<<endl;
+	cout<<"Result 2 = "<<(x > 10)<<endl;
+	cout<<"Result 3 = "<<(x < 10)<<endl;
+	cout<<"Result 4 = "<<(x <= 5)<<endl;
+}
+
+Problem 9: What will be the output of following program?
+#include<iostream>
+using namespace std;
+
+void main()
+{
+
+	int x = 5;
+	bool isValid = true;
+
+	cout<<"Result 1 = "<<((x == 5) && !isValid)<<endl;
+	cout<<"Result 2 = "<<((x < 10) && isValid )<<endl;
+
+	cout<<"Result 3 = "<<(((x == 5) && !isValid) || ((x < 10) && isValid ))<<endl;
+	cout<<"Result 4 = "<<(((x != 5) || !isValid) && ((x == 5 ) && isValid ))<<endl;
+
+}
+
+Problem 10: What will be the output of following program? 
+#include<iostream>
+using namespace std;
+
+void main()
+{
+
+	int x = 5;
+	
+	cout<<"Comparison Result = "<<(x == 6)<<endl;
+	cout<<"x = "<<x<<endl;
+	cout<<"Comparison Result = "<<(x = 6)<<endl;
+	cout<<"x = "<<x<<endl;
+}
+
+Problem 11: What is wrong with following program and how can you fix it?
+#include<iostream>
+using namespace std;
+
+void main()
+{
+
+	int x = 5;
+	int y = 6;
+	int average = (x + y) / 2;
+	cout<<"Average = " <<average<<endl;
+}
+
+Problem 12: Write a program that asks user to input two characters and checks if both characters are equal.Following is the syntax to declare a character:
+char ch1;
+ Give ‘a’ and ‘A’ as two characters. Are these characters equal?

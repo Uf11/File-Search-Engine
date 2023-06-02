@@ -1,0 +1,129 @@
+Problem Set 1	Purpose: Passing and using arrays in functions.
+Problem 1: You are required to write a program which will take input from user in two integer arrays. The program should compare both arrays for checking if both arrays are totally identical (Exactly same). Write a boolean function which return true if arrays are totally identical otherwise return false. Example of two identical (Exactly same) arrays:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Problem 2: Write a function) that should determine the matching indexes of both arrays. Matching indexes means that first element of array1 should be equal to first element of array2 and so on. And output the 
+
+Example of two arrays with some matching elements:
+
+
+
+
+
+Here elements on index 3 and 7 of both arrays are same.
+
+
+
+
+
+
+
+
+
+
+
+Problem 3: Write a function that sorts a given array to reorder the elements of a given array into ascending order. Take input from user.(Assume array size to be 10).
+
+Sample Input and Output:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Problem 4: Write a C++ program to print the contents of any array passed to it. Now convert this to a function Void OutputArray(int arr[ ], int size).
+
+
+Problem 5: Write a function that outputs a ‘*’ if an array item is 1, otherwise it should print a space
+Sample Input and Output:
+
+
+
+
+
+
+
+
+
+Problem 6: Write functions which takes two input arrays and one output array. Write appropriate return type and numbers of parameters along with their data type.Print the resultant output array using the function written in part a(1).
+
+
+Problem 7: Write a function which adds the contents of the two corresponding elements of the input arrays and save the result in the output array. 
+
+Sample Input and Output:
+
+
+
+
+
+
+
+
+
+
+ Problem 8: Write another function PickLarger( ) which compares the corresponding elements of array, picks the larger element among them and saves the larger element in the output array. 
+
+Sample Input and Output:
+
+
+
+
+
+
+
+
+
+
+Problem 9: Suppose you are given an array with integer values.  You have to write a function to generate a frequency distribution from this array.  For example if the array has:
+
+1 1 1 2 1 2 3 1 1 3 2 5 9
+
+then as output the function should prints the  two arrays, one with the values and the other with the frequencies. Make sure the values array does not have duplicate entries.
+
+valuesArray:  {1, 2, 3, 5, 9}
+FrequencyArray: {6, 3, 2, 1, 1} 
+
+
+Hence the prototype of this function should look something like this:
+void FindFrequencyDistribution(int valuesArray[], int FrequencyArray[], int inputArraySize, int FrequencyArraySize).
+
+
+
+

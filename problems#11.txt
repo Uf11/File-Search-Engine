@@ -1,0 +1,35 @@
+Purpose: Introduction to filing. Reading and writing simple text files.
+
+Problem 1: The file named fact_data.txt contains integers in each line. Write a program that reads each integer and then finds and displays the factorial of that integer as well as write it in a file named fact_out.txt in a new line. Factorial should be found using a function named factorial.
+
+Problem 2: The file named employee_data.txt contains 2 pieces of information in each line: name of an employee followed by a comma, and the salary earned each month by that employee. Using this information, create another file, employee_annum_data.txt that contains name of an employee and the salary earned at the end of each year by that employee in each line. Create a function named calcAnnumSalary whose parameter is the salary and return value is annual salary.
+
+Problem 3: The file named char_data.txt contains alphabets with mixed cases. Read in all these alphabets and display the count of each alphabet at the end of the program. Computation should be done using a function named updateLetterCount whose parameters are an integer array of size 52 and a character. The first 26 elements of the array hold counts for lower case alphabets and the rest contain count for the upper case alphabets. Also write the result in a file named p3_result.txt
+
+Problem 4: The file named string_data.txt contains a string in each line (may contain spaces). Read each string into a character array of size 60. Reverse each string using a function named revString, whose only parameter is a character array, and write it to a new line in a file named rev_strings.txt along with the length of that string.
+fact_data.txt
+5
+8
+12
+9
+1
+3
+6
+15
+employee_data.txt
+Ahmed Rafique, 125.966
+Zain Marghoob, 558.124
+Saima Mumtaz, 981.000
+Ghulam Shabir, 888.888
+Arifa Siddiqui, 15.213
+char_data.txt
+AljusJrVCeHStHHTZwDtLMugArKacclSqsAwtoEyEWgy RcKyHAzGqxFNTtqkFrgYyTFmPzEXNpWCTzjLNeQJPjfkDXvuXfOLrqNM
+string_data.txt
+I live in Pakistan.
+Fast University, Lahore
+National University of Computer & Emerging Sciences
+Introduction to Computer Sciences - Lab # 12
+This lab is on filing operations in C++
+fstream is another library
+This lab is too easy..
+

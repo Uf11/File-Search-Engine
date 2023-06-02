@@ -1,0 +1,113 @@
+Problem Set 1	Purpose: Introduction to character arrays, null termination, user input and displaying array, using C-String standard C++ library, writing program using strlen, strcpy etc
+
+Problem 1: Write a function MyOwnStrlen whose parameter is a null terminated character array. The function finds and returns the length of this array.
+
+Problem 2: Write a function MyOwnStrcmp whose parameters are two null terminated character arrays. The function returns true if both arrays are identical and false otherwise.  Use MyOwnStrlen written in part 1 to find the length of both arrays.
+
+Problem 3: Write a function charCount whose parameters are a null terminated character array and a character. The function returns the number of times this character is found in the character array. Implement a driver program (main) to test these functions.
+
+Problem 4: Write a function strcat whose parameters are three arrays. Array1 and array2 have a fixed size. Concatenate both these arrays into array3. (You can use functions MyOwnStrlenwritten in inlab, if needed.)
+
+Problem 5: Write a function findsubstr whose parameters are 2 null terminated character arrays. The function returns true if array2 exists in array1 and false otherwise.
+
+Problem 6: Write a function countwords whose parameters are 2 arrays. The function returns the number of times array2 exists in array1. (You can use function in pl task 2, if you want.)
+
+Problem 7: Note: All the arrays (input/output) are declared in the caller (main or any other function) then pass them as parameters in function.  
+
+a)	Declare a character string of size 50 and initialize all items of the array to zero:
+const int MAXSIZE = 50;
+char str[MAXSIZE] = {0};
+
+1. Now input the string using:
+cin >> str;  //(When running the programming specify “hello this is my ITC lab   “ as input string.)
+What do you get when you output the string using cout?  (cout << str)
+Repeat the same for different strings that contain spaces.  What are your observations?
+
+2.Run a for loop and output all the 50 characters of the string as numbers 
+(Using cout << (int) str[i])?  What do you observe?
+
+3. Try this instead of simple cin:
+cin.getline(str,MAXSIZE);
+
+Now output the string using cout and output individual characters of the string using the above mentioned for loop.  What do you observe?
+
+4. Next reduce the allocated size of the string to 5 (MAXSIZE=5) and in the getline function input more than 5 characters.  What are your observations?
+
+b)	Write a function to find the length of a string (find actual number of characters in the given string) .What parameters are required by this function?  
+
+NOTE: Remember you can pass the maximum size of the array allocated for storing characters (optional) but this won’t be the actual size of the string.
+
+
+
+
+
+
+
+
+
+
+
+
+
+c)	Write a function that takes as parameters a string (char array), a ‘find’ character and a ‘replace’ character.  The function should replace all the occurrences of the ‘find’ character with the ‘replace’ character.
+
+
+
+
+
+
+
+
+
+
+
+
+d)	Write a function that takes as input only a character array (again do not specify the size of the string).  The function should replace the string so that all leading spaces are removed.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e)	Write a function (refined version of find and replace) that replaces a substring with another substring and creates a new string.  Now the function prototype changes to:
+
+void findAndReplace(char originalStr[],char findStr[],char replaceStr[], char newStr[])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Problem 8: Write a function “GetStringLenght” which takes a string and returns its length. For example:
+String: “I love programming.”
+Length: 19
+
+Problem 9: Write a function that takes as parameters a string (char array), a ‘find’ character and a ‘replace’ character.  The function should replace all the occurrences of the ‘find’ character with the ‘replace’ character.  For example:
+string: “I love programming”
+find character: ‘m’
+replace character: ‘n’
+then the string should become “I love progranning”
+
+char arr[25] = { 'a', 'g', 'T', '@', '5', 'h', '%', '1', 'k', 'R', 'B', '7', '&', 'l', 'V', 'j', '#', 'n', 'Q', '3', '!', ')', '}', 'W', 'y' };
+Write a program that converts the upper case letters to lower case letters and lower case letters to upper case letters. The numbers should be replaced with N + 5, where N is the number. If this number exceeds single digit, replace it with the unit digit of that number. Other characters should remain as they are. Display the altered array.
+
+
+
+ 
+

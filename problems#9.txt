@@ -1,0 +1,69 @@
+Problem Set 1	Purpose: Writing C++ programs using character arrays
+
+Problem 1: Write a function that takes as input only a character array (again do not specify the size of the string).  The function should replace the string so that all leading spaces are removed.  For example if the initial string is:  “                hello how are you?”
+Then the function should replace the original string with “hello how are you?”
+
+String Before TrimStart: “                   Hello           How are you?”
+String After TrimStart: “Hello           How are you?”
+
+Problem 2: This function should remove all the trailing spaces from a string.  For example, if the initial string is:
+“hello how are you                  “
+Then the function should modify the string as “hello how are you”
+Test your function with following string:
+String Before Trim End: “I love programmin                            g.                ”
+String After Trim End: “I love programmin                            g.” 
+
+Problem 3: Write a function that takes a string, replaces a Find substring with a Replace substring and creates a new string. For example:
+
+String: “I am Pakistani so I support Pakistani Cricket team in Pak-India matches.”
+Find Substring: Pak
+Replace Substring: Afghan
+New String: “I am Afghanistani so I support Afghanistani Cricket team in Afghan-India matches.”
+
+String: “I am Pakistani so I support Pakistani Cricket team in Pak-India matches.”
+Find Substring: Pakii
+Replace Substring: Afghan
+New String: “I am Pakistani so I support Pakistani Cricket team in Pak-India matches.” (as Pakii does not exist in the string).
+
+Problem 4: Write a function that takes two strings i.e. string1 and string2 and appends string2 at the end of string1. For example
+
+String 1: “Happy Birthday”
+String 2: “ to you !”
+After StringConcat, String 1: “Happy Birthday to you !”
+
+Problem 5: Write a function which takes a string and prints words in it. For example:
+String: I am a student of ITC in FAST-NU.
+Tokens:
+I
+am
+a
+student
+of
+ITC
+In
+FAST-NU.
+
+Hint: words are separated by spaces.
+
+Problem 6: Write a function that takes a string and a substring and returns index of string where it finds first occurrence of substring. If it does not find the substring in string, it will return -1. For example,
+
+String: “I am a Pakistani so I support Pakistani Cricket team in Pak-India matches.”
+Substring: Pak
+Index Returned: 7
+
+Substring: Pakii
+Index Returned: -1
+
+Problem 7: Write a program that takes two strings i.e. string1 and string2 and returns true if string1 ends with string2. For example,
+
+String1: “I am a Pakistani so I support Pakistani Cricket team in Pak-India matches.”
+String2: “matches”
+Returned Value: false (there is a dot at the end)
+
+String2: “matches.”
+Returned Value: true
+
+
+Problem 8: A palindrome is a string that is spelled the same way forwards and backwards. Some examples are “radar”, “able was I ere I saw elba” and (if blanks and punctuations are ignored) “a man a plan a canal panama.” Write a function IsPalindrome that returns true is the string stored in the array is a palindrome and false otherwise. The function should ignore spaces and punctuation in the string.
+ 
+

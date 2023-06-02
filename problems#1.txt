@@ -1,0 +1,18 @@
+Problems
+Purpose: Introduction to C++: introduction to Data Types, Variables and some basic functions.
+
+Problem 1: Write your first program saying “Hello World”.  Now change the program to print your name and roll number instead.
+
+Problem 2: Declare three integer variables, number1, number2 and sum. Initialize the values of number1 to 10 and number2 to 25. Add them and store their values in sum. Print this sum. Verify that the output is 35 by outputting it on screen.
+
+Problem 3: Declare three integer variables, number1,  number2 and sum.  Input number1 and number2 from the user.  You can use the construct:  cin >> number1; to input a value into this variable called ‘number1’.  Now place the sum of these two numbers in the variable sum and output it using cout.
+
+Problem 4: Write your first program to print your name, roll number and degree program in following format:
+Name:		<FirstName><LastName>
+Roll No:	l141234
+Program:	BS (CS)
+
+Problem 5: Declare three integer variables, number1, number2 and sum. Initialize the values of number1 to 10 and number2 to 25. Add them and store their values in sum. Print this sum. Verify that the output is 35 by outputting it on screen. 
+
+Problem 6: Declare three integer variables, number1, number2 and sum.  Input number1 and number2 from the user.  You can use the construct: cin>>number1; to input a value into this variable called 'number1'.  Now place the sum of these two numbers in the variable sum and output it using cout.
+

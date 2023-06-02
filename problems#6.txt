@@ -1,0 +1,65 @@
+Purpose: Introduction to arrays:  declaring and initializing arrays, accessing array, user input and displaying array
+Problem 1: Write a program to ask the user to enter 10 numbers. Store these in an array. 
+a.	Display these numbers
+b.	Find and display sum of these numbers
+c.	Find and display average of these numbers
+ 
+
+Problem 2: Write a function which takes 5 numbers from user and prints them in reverse order (reverse of the order in which they were taken). For example if user enters 1, 2, 3, 4, 5 your program will display following on the screen:
+Elements in reverse order:
+5
+4
+3
+2
+1
+
+
+
+ 
+Problem Set 1	Purpose: problem solving and writing program in C++ using arrays
+Problem 1: Write a function which takes 5 numbers in array1, copies them in array2, updates array2 by saving square of each number and displays both arrays (Make sure you implement all the requirements in separate loops i.e. 1st loop for input, 2nd for copying data, 3rd for saving square and 4th for display). Sample output is given below:
+Array1              Array2
+4                           16
+9                           81
+7                           49
+2                           4
+5                           25
+
+Now run your program on 10 numbers.
+	
+Problem 2: Write a program which keeps taking numbers (0 to 9) from user until user enters -1 (-1 is not a part of data it is only stopping criteria). On receiving -1, your program displays frequency and probability of all the numbers. 
+Frequency of a number n = No. of times user entered n.
+Probability of a number n = Frequency of n / Total Numbers Entered
+For example, if user enters 5, 8, 3, 6, 3, 9, 2, 2, 3, -1. Your program output will be as shown below:
+No.                    Frequency                Probability
+0                             0                                   0
+1                             0                                   0
+2                             2                                   0.22
+3                             3                                   0.33
+4                             0                                   0
+5                             1                                   0.11
+6                             1                                   0.11
+7                             0                                   0
+8                             1                                   0.11
+9                             1                                   0.11
+
+
+
+Problem 3: Write a program that asks the user to enter 15 numbers (integers). Your program should sort these into ascending order and display the ordered numbers.
+ 
+
+Problem 4: Write a program to reverse the numbers of an integer array of size 20.
+
+Problem 5: Write a program that mimics a dice. The dice will be rolled 150 times. Display the face value of each roll. At the end, display the count of each face.
+
+Problem 6: Write a program to find the largest and smallest value of a floating number array.
+
+Problem 7: Create an array of size 100. Fill this array with random numbers in the range [-50, 150]. In this array, there should be no number which is a multiple of 4. Display this array on the output screen. Ask the user to enter a number in the given range. If that number is a multiple of 4, display an error. Otherwise, output the number of times that number is found in this array.
+
+Problem 8: Given 2 character arrays of size 10 each, create a 3rd array of size 20 which merges and sorts the first 2 arrays in descending order. Display this array on the output screen.
+
+Problem 9: Write a program that creates an array of 1000 integers. Populate this array with random numbers in the range [10, 550].
+a.	Count and display number of even numbers
+b.	Count and display number of odd numbers
+c.	Count and display number of prime numbers
+

@@ -1,0 +1,192 @@
+	Purpose: Introduction to iterative statement, write program using for/while.
+
+Problem 1:
+How many times will the below loop run?  
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int count = 1;
+	int x=10,y=20;
+
+	while(x<y)//in parenthesis we have condition, which when true takes us inside loop
+	{
+		x = x+1;
+		y = y-1;
+		cout<<"Iteration "<<count<<endl;
+		count++;
+	}
+
+}
+
+Note: Notice the indentation (spacing) in the code above. Indentation makes the code readable.
+Problem 2:
+Write a program which keeps taking input from user until he enters -1. On receiving -1 your program will display average of numbers entered.
+Problem 3:
+A number x can be determined to be a prime number by a method called trial division.  Check if x can be divided by 2,3,4,…sqrt(x).  If it can be divided then it is not a prime number otherwise it is.  For example, to check if 29 is a prime number, take the square root of 29 and round it to the nearest integer, i.e., 5.3852 would be 6.  Now check if 29 is divisible by 2,3,4,5 or 6.  As it cannot be divided by any of these numbers it is a prime number. Your program should exit the loop as soon as it finds the first divisor.
+Problem 4:
+Input a number from the user and output its digits, one digit per line.  For example, if the user inputs 7854, then your program should output:
+The digits of 7854 are:
+7
+8
+5
+4
+Note: Your program should run for any number of digits supported by an “int” (i.e. from 0 to max number).
+Modify your program to print invert of the number. For example, invert of 7854 is 4587.
+Problem 5:
+Input 10 numbers from the user and print the sum of all numbers which are greater than 10.
+Problem 6:
+Write a program which takes a number ‘n’ from user and displays its factorial.
+Problem 7:
+Keep inputting two numbers from the user.  You have to stop when the sum of the two numbers is odd; otherwise input the two numbers again.  At the end you have to output the product of all the numbers input by the user.
+Problem 8:
+Determine the pattern followed by the series below:
+1, 2, 3, 5, 8, 13, 21, 34, …
+Write a program that takes a number ‘n’ and prints first ‘n’ numbers of this series. For example, if user enters 6, your program should display
+1, 2, 3, 5, 8, 13
+
+Problem 9:
+Write a C++ program that takes 2 integers (i) a starting number and (ii) the number of elements in last row. Then print then prints the data in form a lower triangular matrix. For example, if the starting number is 10 and the number of elements in last row is 3, then output would be
+10 
+11	 12
+13 14 15
+Note: You have to do it using a single while loop.
+
+Problem 10:
+An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself. For example, 371 is an Armstrong number since 3**3 + 7**3 + 1**3 = 371.Write a program to find all Armstrong number in the range of 0 and 999.
+
+Problem 11:
+Write a C++ program that keeps on taking integers until -999 is entered. The program then displays the sum of all integers, the largest and the smallest integers.
+Problem 12:
+Write a program to calculate the place value of digit in an integer.
+For example, if the user inputs an integer 56918 and you want to determine the place value of 6, the output would be “Thousands”. You can include a check for whether that specific digit is present or not.Your program should work for a maximum place value of “millions”.
+*Units; tens; hundreds; thousands; ten thousands; hundred thousands; millions.
+Problem 13:
+Write a program that prints a triangular pattern. The program asks the user to enter the height of the triangle and the character to use. For example:
+
+ 
+
+Problem 14:
+The trigonometric series to find cos(x), where x is a number in radians, is given as:
+cos⁡(x)=1-  x^2/2!+x^4/4!-x^6/6!+⋯
+Write a program that asks the user for x and the number of terms to use to find cos(x). Find the value of cos(x) using available function and compute the difference between the calculated value (using your program) and the value found from the function. Answer should be displayed with an accuracy of 15 decimal places. For example:
+
+ 
+
+Problem 15:
+Write a program in which the user has to enter all numbers between 5 and 25 (inclusive). If the user does not enter the correct number, display an error and ask to enter again. For example:
+ 
+
+
+
+Problem 16:
+π can be calculated using the following infinite series:
+π=4-  4/3+  4/5-  4/7+  4/9-  4/11+ …
+Write a code that prints the value of π after the first 100 terms, 200 terms and 300 terms (in the same code).
+
+Problem 17:
+Write a code that finds out if a number is a prime number. The user enters a number and your code must output whether it is a prime number or not.
+
+Problem 18:
+Fibonacci sequence is calculated such that the nth term is the sum of n – 1th and n – 2th term. The first number in the sequence is 0 and the second number is 1. Therefore, the third number would be 0 + 1 = 1, the fourth number would be 1 + 1 = 2, the seventh number would be 5 + 8 = 13, and so on. Write a program that asks the user to enter a number (representing the number of terms to be found). The program should write all the numbers in the sequence up to, and including, this term. For example, 
+
+ 
+
+Problem 19:
+Write a program that takes in a fraction and then displays that fraction in the reduced form. For example:
+
+ 
+
+
+Problem 20:
+Write a program that calculates:
+f(x)=  f1(x)+ f2(x), 
+wheref1(x)=√(15 * (x – 2)^n )and f2(x)= 〖log〗_10 (∛(3x(n+1)) . 
+The user will enter the value of x and n (where n is the number of terms to be calculated, starting from n = 0). The output should be formatted as below:
+ 
+( HINT: Look up functions available under iomanip and iostream libraries)
+Problem 21:
+Write a program that prints a triangular pattern. The program asks the user for the height of the triangle and whether to print the triangle in ascending or descending order. The user must enter either 0 or a (for ascending pattern) and either 1 or d (for descending pattern). If the user enters an invalid option, the program must display an error and ask for input again. Program should terminate if the user enters the character q. For example:
+
+ 
+
+Problem 22:
+Write a C++ program that keeps on taking integers until -999 is entered. 
+The program then displays the sum of all integers, the largest and the smallest integers.
+Note: -999 would not be included in the calculations.
+Modify your code so that it now tells the total number of integers entered before -999, and at what positions the smallest and largest integers were entered. Exceeds 
+
+Problem 23:
+The population of a town A is less than the population of town B. However, the population of town A is growing faster than the population of town B. Write a program that prompts the user to enter the population and growth rate of each town. The program outputs after how many years the population of town A will be greater than or equal to the population of town B and the populations of both the towns at that time. (A sample input is: Population of town A = 5000, growth rate of town A = 4%, population of town B = 8000, and growth rate of town B = 2%.)
+
+Problem 24:
+Write a program to calculate the place value of digit in an integer. Your program would take 2 integers from the user, an integer between 0 and 10 million, and another integer – a single digit in the first number. Your program would then output the place value of that digit in the number.
+For example, if the user inputs an integer 56918 and you want to determine the place value of 6, the output would be “Thousands”. 
+You can include a check for whether that specific digit is present or not.
+*Units; tens; hundreds; thousands; ten thousands; hundred thousand; millions.
+
+Problem 25:
+Design and write a C++ program that takes as input an integer larger than 1 and calculates the sum of the squares from 1 to that integer. The output should be the value of the squares and the sum, properly labelled on the screen. 
+For example, if the integer equals 4, your program would display “1 + 4 + 9 + 16 = 30”
+
+
+Problem 26:
+Suppose that the first number of a sequence is x, in which x is an integer. Define a_0 = x; a_(n+1) = a_n/2 if a_n is even; a_(n+1) = 3 x a_n + 1 if a_n is odd. Then, there exists an integer k such that a_k= 1. Write a program that prompts the user to input the value of x. The program output the integer k such that a_0 = 1 and the numbers,a_0,a_1,a_2,...,a_k. (For example, if x = 75, then k = 14, and the numbers, a_0,a_1,a_2,...,a_14, respectively, are 75, 226, 113, 340, 170, 85, 256, 128, 64, 32, 16, 8, 4, 2, 1.) Test your program for the following values of x: 75, 111, 678, 732, 873, 2048, and 65535.
+
+
+ 
+	Purpose: Introduction to nested loops, write program using while ()/for (;;) in while ()/for (;;).
+
+Problem 1: Write a program that uses nested for – loops to print first 10 entries of tables of 1 to 5. For example:
+
+  
+
+
+Problem 2: Find all prime numbers from 1 to a user defined number, N. 
+
+
+Problem 5: Every single part of this question has something to do with prime numbers.
+	Write a C++ program that takes any 2-digit number and determines whether that number is a prime or not.
+	Now consider your roll number, take the last four digits of your roll number and calculate 〖Roll_no〗^0.8 , e.g. if your roll-no is L14-5134, you would calculate 〖5134〗^0.8. Determine the prime number before and after the number 〖Roll_no〗^0.8.
+You may call the former as prime_former and the latter as prime_latter.
+A number, limit, is equal to prime_former if |〖Roll¬¬_no〗^0.8 – prime_former| is greater than |〖Roll_no〗^0.8 – prime_latter|, else limit is equal to prime_latter; where |x| represents the magnitude of the quantity x.
+You have to calculate and display all the prime numbers between the 2-digit number from part (I) and the number limit.
+	Modify your program from part (II), such that it only displays all the prime numbers that have the digit 7 in them.
+
+Problem 6: Write a C++ program that displays the first 15 decimal numbers, along with their binary equivalents.
+The output of your program would be something like,
+BIT-1	BIT-2	BIT-3	BIT-4	DECIMAL EQUIVALENT
+0	0	0	0	0
+0	0	0	1	1
+0	0	1	0	2
+0	0	1	1	3
+0	1	0	0	4
+0	1	0	1	5
+0	1	1	0	6
+0	1	1	1	7
+1	0	0	0	8
+1	0	0	1	9
+1	0	1	0	10
+1	0	1	1	11
+1	1	0	0	12
+1	1	0	1	13
+1	1	1	0	14
+1	1	1	1	15
+
+Problem 7: Write a C++ program that uses nested loops to output the following pattern. The height of the pattern is to be input by the user and should not be greater than 9.
+
+1 2 3 4 5 6 7 6 5 4 3 2 1
+1 2 3 4 5 6    6 5 4 3 2 1
+1 2 3 4 5          5 4 3 2 1
+1 2 3 4                4 3 2 1
+1 2 3                      3 2 1
+1 2                            2 1
+1                                  1
+
+
+Problem 8: Problem 19-29 in purpose 11.
+
+
+ 
+
