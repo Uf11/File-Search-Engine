@@ -7,9 +7,13 @@ This is a simple file search engine implemented in C++ that allows you to search
 The project has the following file structure:
 
 search_engine.cpp: Contains the main source code of the search engine.
+
 doclist.txt: A text file that contains the list of file names to be searched.
+
 stoplist.txt: A text file that contains a list of stop words that are ignored during the search.
+
 history.txt: A text file that maintains the search history.
+
 Make sure the files you want to search is placed in the same directory as the program.
 
 ## License
